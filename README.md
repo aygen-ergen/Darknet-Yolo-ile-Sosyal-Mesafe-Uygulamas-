@@ -8,7 +8,7 @@
   - sed -i 's/OPENCV=0/OPENCV=1/' Makefile
   - sed -i 's/GPU=0/GPU=1/' Makefile
   - sed -i 's/CUDNN=0/CUDNN=1/' Makefile
-   Eğer kendi ekran kartınızı kullanmak istemezseniz, yalnızca OpenCV satırını çalıştırın.
+  - Eğer kendi ekran kartınızı kullanmak istemezseniz, yalnızca OpenCV satırını çalıştırın.
    
 ## Cuda'nın doğrulanması
   - nvcc --version
